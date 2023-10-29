@@ -30,15 +30,25 @@ section#telefone {
     background: url(imagens/frame-iphone.png) no-repeat;
 }
 
-#redes {
-    float: right;
+section#redes {
+    text-align: right;
 }
 
-a > img {
-    display: block;
+section#redes img:hover{
+    border: 1.7px solid rgba(255, 255, 255, 0.61);
+    transform: translate(-2px, -1px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.705);
+    transition-duration: 0.3s;
+    opacity: 100%; 
+}
+
+section#redes img {    
     width: 50px;
     border-radius: 1000px;
-    padding: 10px;   
+    margin: 10px;  
+    box-shadow: 2px 3px 5px rgba(3, 3, 3, 0.712);
+    box-sizing: border-box;
+    opacity: 60%;
 }
 
 iframe#tela {
