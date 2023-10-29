@@ -46,7 +46,7 @@ section#redes img:hover {
 section#redes img {
     width: 50px;
     border-radius: 1000px;
-    margin: 10px;
+    margin: 7px;
     box-shadow: 2px 3px 5px rgba(3, 3, 3, 0.712);
     box-sizing: border-box;
     opacity: 60%;
