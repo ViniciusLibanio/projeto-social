@@ -5,7 +5,8 @@
     padding: 0px;
 }
 
-html, body {
+html,
+body {
     width: 100vw;
     height: 100vh;
     background-image: url(imagens/fundo-madeira.jpg);
@@ -25,7 +26,7 @@ section#telefone {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    width: 311px;    
+    width: 311px;
     height: 725px;
     background: url(imagens/frame-iphone.png) no-repeat;
 }
@@ -34,18 +35,18 @@ section#redes {
     text-align: right;
 }
 
-section#redes img:hover{
+section#redes img:hover {
     border: 1.7px solid rgba(255, 255, 255, 0.61);
     transform: translate(-2px, -1px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.705);
     transition-duration: 0.3s;
-    opacity: 100%; 
+    opacity: 100%;
 }
 
-section#redes img {    
+section#redes img {
     width: 50px;
     border-radius: 1000px;
-    margin: 10px;  
+    margin: 10px;
     box-shadow: 2px 3px 5px rgba(3, 3, 3, 0.712);
     box-sizing: border-box;
     opacity: 60%;
